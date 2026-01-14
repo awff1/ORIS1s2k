@@ -1,0 +1,18 @@
+data base lab_06
+
+create sequence user_seq;
+
+create table users (
+  id bigint primary key,
+  username varchar(50) not null unique,
+  hashpassword varchar(100) not null,
+  userrole varchar(10) default 'user'
+);
+
+create table userinfo (
+  id bigint primary key,
+  lastname varchar(255),
+  firstname varchar(255),
+  phone varchar(50),
+  constraint user_id_fk foreign key (id) references users(id)
+);

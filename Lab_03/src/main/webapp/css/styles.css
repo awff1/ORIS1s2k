@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background-image: url("/lab_03/images/background.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tic-tac-toe {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tic-tac-toe__title {
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    color: #1f1f1f;
+}
+
+.tic-tac-toe__table {
+    border:2px solid darkslateblue;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.tic-tac-toe__table-row {
+
+}
+
+.tic-tac-toe__table-cell {
+    background-color: white;
+    width: 110px;
+    height: 110px;
+    border: 1px solid gray;
+    border-radius: 20px;
+}
+
+.tic-tac-toe__table-cell:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.2s ease;
+}
+
+.tic-tac-toe__table-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.tic-tac-toe__form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.tic-tac-toe__row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.tic-tac-toe__label {
+    font-size: 20px;
+    color: #1f1f1f;
+}
+
+.tic-tac-toe__input[type="text"] {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 6px;
+}
+
+.tic-tac-toe__input[type="text"]:focus {
+    outline: none;
+    border-color: #f26d6d;
+    transition: border-color 0.2s ease;
+}
+
+.tic-tac-toe__input[type="submit"] {
+    padding: 5px 10px;
+    margin: 0 auto;
+    background: #f26d6d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.tic-tac-toe__input[type="submit"]:hover {
+    transition: background 0.25s ease;
+    transform: scale(1.03);
+    background: #ee6060;
+    cursor: pointer;
+}
+
+.tic-tac-toe__message {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1f1f1f;
+    margin-top: 20px;
+}

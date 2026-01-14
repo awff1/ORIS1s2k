@@ -1,0 +1,59 @@
+2025-12-06 09:11:55,780 [main] INFO  ru.itis.dis403.lab_01.HttpServer- start HttpServer
+2025-12-06 09:13:28,050 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- GET / HTTP/1.1
+2025-12-06 09:13:28,050 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Host: localhost:8080
+2025-12-06 09:13:28,050 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Connection: keep-alive
+2025-12-06 09:13:28,050 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+2025-12-06 09:13:28,050 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua-mobile: ?0
+2025-12-06 09:13:28,050 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua-platform: "Windows"
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Upgrade-Insecure-Requests: 1
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Site: none
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Mode: navigate
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-User: ?1
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Dest: document
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept-Encoding: gzip, deflate, br, zstd
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- Cookie: Idea-12eac644=9d1efd98-6bde-4685-ba31-e0203af3615f
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- 
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- end of request header
+2025-12-06 09:13:28,051 [Thread-0] DEBUG ru.itis.dis403.lab_01.RequestHandler- outputStreamjava.net.Socket$SocketOutputStream@27535e21
+2025-12-06 09:13:28,121 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- GET /favicon.ico HTTP/1.1
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Host: localhost:8080
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Connection: keep-alive
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua-platform: "Windows"
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua-mobile: ?0
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Site: same-origin
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Mode: no-cors
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Dest: image
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Referer: http://localhost:8080/
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept-Encoding: gzip, deflate, br, zstd
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+2025-12-06 09:13:28,122 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- Cookie: Idea-12eac644=9d1efd98-6bde-4685-ba31-e0203af3615f
+2025-12-06 09:13:28,123 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- 
+2025-12-06 09:13:28,123 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- end of request header
+2025-12-06 09:13:28,123 [Thread-1] DEBUG ru.itis.dis403.lab_01.RequestHandler- outputStreamjava.net.Socket$SocketOutputStream@4dd576a0
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- GET /home HTTP/1.1
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Host: localhost:8080
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Connection: keep-alive
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua: "Google Chrome";v="143", "Chromium";v="143", "Not A(Brand";v="24"
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua-mobile: ?0
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- sec-ch-ua-platform: "Windows"
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Upgrade-Insecure-Requests: 1
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36
+2025-12-06 09:13:45,670 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Site: none
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Mode: navigate
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-User: ?1
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Sec-Fetch-Dest: document
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept-Encoding: gzip, deflate, br, zstd
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Accept-Language: ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- Cookie: Idea-12eac644=9d1efd98-6bde-4685-ba31-e0203af3615f
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- 
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- end of request header
+2025-12-06 09:13:45,671 [Thread-2] DEBUG ru.itis.dis403.lab_01.RequestHandler- outputStreamjava.net.Socket$SocketOutputStream@7984dcf6
+2025-12-06 09:15:28,677 [Thread-3] DEBUG ru.itis.dis403.lab_01.RequestHandler- null
+2026-01-14 12:46:22,716 [main] INFO  ru.itis.dis403.lab_01.HttpServer- start HttpServer
