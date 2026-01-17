@@ -11,7 +11,7 @@ public class TestDB {
             Connection connection =
                     DriverManager.getConnection(
                             // адрес БД , имя пользователя, пароль
-                            "jdbc:postgresql://localhost:5432/demo","postgres","postgres");
+                            "jdbc:postgresql://localhost:5432/demo","postgres","admin");
 
             Statement statement = connection.createStatement();
 

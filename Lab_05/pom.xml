@@ -43,5 +43,8 @@
         </dependency>
 
     </dependencies>
+    <build>
+        <finalName>lab_05</finalName>
+    </build>
 
 </project>

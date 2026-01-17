@@ -17,7 +17,7 @@ import java.io.IOException;
 public class UserCheckServlet extends HttpServlet {
 
     final static Logger logger = LogManager.getLogger(UserCheckServlet.class);
-    private UserRepository userRepository = new UserRepository();
+    private UserRepository  userRepository = new UserRepository();
 
     @Override
     public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -32,7 +32,9 @@ public class UserCheckServlet extends HttpServlet {
         if (session == null || session.getAttribute("user") == null) {
 
             User user = userRepository.findByUsername(username);
-
+            if (user==null){
+                System.out.println("net");
+            }
             if ((username.equals("admin") && password.equals("admin"))
                     || (user != null && user.getPassword().equals(password))) {
                 session = request.getSession(true);

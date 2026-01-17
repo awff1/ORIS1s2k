@@ -5,7 +5,7 @@ import ru.itis.dis403.lab_04.model.Airplane;
 import ru.itis.dis403.lab_04.repository.AirplaneRepository;
 import java.util.List;
 
-public class AirplaneService {
+public class    AirplaneService {
 
     private AirplaneRepository repository = new AirplaneRepository();
 
