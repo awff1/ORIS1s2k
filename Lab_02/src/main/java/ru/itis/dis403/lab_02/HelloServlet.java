@@ -33,7 +33,7 @@ public class HelloServlet implements Servlet {
 
         StringBuilder sb = new StringBuilder();
         sb.append("<html><body>")
-                .append("<div>protocol: ").append(protocol).append("</div>")
+                    .append("<div>protocol: ").append(protocol).append("</div>")
                 .append("<div>remoteAddr: ").append(remoteAddr).append("</div>")
                 .append("<div>remotePort: ").append(remotePort).append("</div>");
 

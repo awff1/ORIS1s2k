@@ -21,7 +21,7 @@ public class DbConnection {
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl("jdbc:postgresql://localhost:5432/products");
         config.setUsername("postgres");
-        config.setPassword("postgres");
+        config.setPassword("admin");
         config.setMaximumPoolSize(10);
         dataSource = new HikariDataSource(config);
 

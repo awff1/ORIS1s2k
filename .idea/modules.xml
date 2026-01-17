@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lab_03/Lab_03.iml" filepath="$PROJECT_DIR$/Lab_03/Lab_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_04/Lab_04.iml" filepath="$PROJECT_DIR$/Lab_04/Lab_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_05/Lab_05.iml" filepath="$PROJECT_DIR$/Lab_05/Lab_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_06/Lab_06.iml" filepath="$PROJECT_DIR$/Lab_06/Lab_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_07/Lab_07.iml" filepath="$PROJECT_DIR$/Lab_07/Lab_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab_08/Lab_08.iml" filepath="$PROJECT_DIR$/Lab_08/Lab_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ThirdSemester.iml" filepath="$PROJECT_DIR$/.idea/ThirdSemester.iml" />
     </modules>
   </component>

@@ -14,7 +14,7 @@ public class DBConnection {
                 return connection;
             } else {
                 try {
-                    connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/lab_05","postgres","postgres");
+                    connection = DriverManager.getConnection("jdbc:postgresql://localhost:5432/lab_05","postgres","admin");
                     return connection;
                 } catch (SQLException e) {
                     throw new RuntimeException(e);

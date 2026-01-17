@@ -20,7 +20,7 @@ public class DBConnection {
         HikariConfig config = new HikariConfig();
         config.setJdbcUrl("jdbc:postgresql://localhost:5432/lab_06");
         config.setUsername("postgres");
-        config.setPassword("postgres");
+        config.setPassword("admin");
         config.setConnectionTimeout(50000); // в миллисекундах
         config.setMaximumPoolSize(10);
         dataSource = new HikariDataSource(config);

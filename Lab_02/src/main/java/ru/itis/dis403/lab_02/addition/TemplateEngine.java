@@ -37,30 +37,30 @@ public class TemplateEngine extends HttpServlet {
 
         String fileName = request.getServletPath().substring(1);
 
-        //handler.handle(fileName, params, response.getWriter());
+        handler.handle(fileName, params, response.getWriter());
 
-        URL url = TemplateEngine.class.getClassLoader().getResource("templates/" + fileName);
-
-        if (url == null) {
-            response.sendError(HttpServletResponse.SC_NOT_FOUND, "Template " + fileName + " не найден");
-            return;
-        }
-
-        Path path;
-
-        try {
-            path = Paths.get(url.toURI());
-        } catch (URISyntaxException e) {
-            throw new RuntimeException(e);
-        }
-
-        String template = Files.readString(path);
-
-        for (Map.Entry<String, String> entry : params.entrySet()) {
-            template = template.replace("${" + entry.getKey() + "}", entry.getValue());
-        }
-
-        response.setContentType("text/html; charset=UTF-8");
-        response.getWriter().write(template);
+//        URL url = TemplateEngine.class.getClassLoader().getResource("templates/" + fileName);
+//
+//        if (url == null) {
+//            response.sendError(HttpServletResponse.SC_NOT_FOUND, "Template " + fileName + " не найден");
+//            return;
+//        }
+//
+//        Path path;
+//
+//        try {
+//            path = Paths.get(url.toURI());
+//        } catch (URISyntaxException e) {
+//            throw new RuntimeException(e);
+//        }
+//
+//        String template = Files.readString(path);
+//
+//        for (Map.Entry<String, String> entry : params.entrySet()) {
+//            template = template.replace("${" + entry.getKey() + "}", entry.getValue());
+//        }
+//
+//        response.setContentType("text/html; charset=UTF-8");
+//        response.getWriter().write(template);
     }
 }

@@ -20,7 +20,7 @@ public class TemplateTest extends HttpServlet {
         logger.debug(request.getServletPath());
 
 
-        request.setAttribute("default", "Ваше имя");
+        request.setAttribute("default", "Azat");
         request.setAttribute("param2", "Ваше имя");
 
         // Отрабатываем логику приложения
